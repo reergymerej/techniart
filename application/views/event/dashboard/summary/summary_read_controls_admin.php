@@ -1,0 +1,2 @@
+<p><a href="<?php echo site_url("event_summary/create/$id");  ?>" class="buttonLink">finish event</a><br />
+This will allow you to add final notes and then prevent everyone from altering this event any further.</p>

@@ -1,0 +1,1 @@
+logged in as <a href="<?php echo site_url(); ?>/user/read/<?php echo $id; ?>"><?php echo $email; ?></a>.

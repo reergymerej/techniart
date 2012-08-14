@@ -1,0 +1,1 @@
+<a href="<?php echo site_url('event_info/create'); ?>" class="buttonLink">new event</a>

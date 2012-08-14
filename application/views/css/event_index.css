@@ -1,0 +1,14 @@
+@import url('main.css');
+table.compact td {
+	padding:0;
+	border:none;
+}
+#search {
+	float:right;
+}
+#search label, #search input {
+	display:inline-block;
+}
+#controls {
+	float:left;	
+}

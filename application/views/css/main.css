@@ -1,0 +1,233 @@
+@charset "utf-8";
+/******************************/
+/*	main	*/
+/******************************/
+* {
+	font-family:Arial, Verdana, Tahoma, Helvetica, sans-serif;
+	margin:0;
+	padding:0;
+}
+body {
+	background-color:#FFFFFF;
+	color:#007FAD;
+}
+#wrapper{
+	width:900px;
+	margin:0 auto;
+}
+#header{
+	background-image:url(../img/logo.gif);
+	background-repeat:no-repeat;
+	background-position:top left;
+	height:91px;
+}
+#currentUser {
+	float:right;
+	margin-top:1em;	
+}
+#nav{
+	height:41px;
+	background-image:url(../img/nav_bg.gif);
+	background-repeat:repeat-x;
+	background-position:top left;
+	margin-bottom:1.3em;
+}
+#content{
+	padding:1em;
+	background-image:url(../img/g_bkg_body-main.gif);
+	background-repeat:repeat-x;
+	background-position:top left;
+	background-color:#FFF;
+	border:1px solid #C8E1EA;
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	line-height:20px;
+
+}
+#footer{
+	font-size:.8em;
+	text-align:center;
+	padding:1em;
+}
+h1, h2, h3, h4{
+	margin:0 0 .5em;
+	padding-bottom:.3em;
+	color:#138307;
+}
+h1, h2 {
+	border-bottom:1px solid #C8E1EA;
+	clear:both;
+}
+p, ul, ol, table {
+	margin-bottom:.8em;
+}
+li{
+	margin-left:1.2em;
+}
+/******************************/
+/*	links	*/
+/******************************/
+a:link, a:visited{
+	color:#551A8B;
+	text-decoration:none;
+}
+a:hover, a:active{
+	text-decoration:underline;	
+}
+a.buttonLink {
+	border:1px solid #007FAD;
+	background-color:#007FAD;
+	color:#fff;
+	padding:.3em .8em;
+	display:inline-block;
+}
+.buttonLink:hover {
+	text-decoration:none;
+	background-color:#C8E1EA;
+	color:#551A8B;
+}
+/******************************/
+/*	navigation	*/
+/******************************/
+#nav ul{
+	margin:0 2em;	
+}
+#nav li{
+	float:left;
+	margin:0;
+	list-style:none;
+}
+#nav a{
+	padding:0 1.5em;
+	display:inline-block;
+	color:#FFF;
+	height:41px;
+	line-height:41px;
+	font-size:1.1em;
+	text-transform:uppercase;
+}
+#nav a:hover{
+	background-image:url(../img/nav_hover_bg.gif);
+	background-repeat:repeat-x;
+	background-position:top left;
+	text-decoration:none;
+}
+#content{
+	clear:both;
+}
+/******************************/
+/*	forms	*/
+/******************************/
+label{
+	font-weight:bold;
+	display:block;
+	text-transform:capitalize;
+}
+input, textarea, button, select {
+	display:block;	
+	margin-bottom:.3em;
+	padding:.3em .25em;
+}
+textarea {
+	width:100%;	
+	min-height:200px;
+}
+input[type="submit"], button {
+	display:inline-block;
+	width:auto;
+	padding:.6em 1.6em;
+	cursor:pointer;	
+}
+/******************************/
+/*	tables	*/
+/******************************/
+table {
+	width:100%;	
+}
+th, td {
+	padding:.5em 1em;
+	white-space:nowrap;
+	text-align:left;
+}
+th {
+	padding-top:0;
+	padding-bottom:0;
+	text-transform:capitalize;
+}
+td {
+	border-top:1px solid #C8E1EA;;
+}
+table.sortable {
+	clear:both;	
+}
+table.sortable th {
+	height:20px;
+	line-height:20px;
+	cursor:pointer;	
+	background-position:right center;
+	background-repeat:no-repeat;
+}
+table.sortable th.not-sortable {
+	cursor:default;	
+}
+table.sortable th.asc {
+	background-image:url('../img/sort_asc.png');
+}
+table.sortable th.desc {
+	background-image:url('../img/sort_desc.png');
+}
+/******************************/
+/*	calendar	*/
+/******************************/
+table.calendar th{
+	text-align:center;	
+}
+table.calendar td {
+	border:1px solid #007FAD;
+	width:100px;
+	height:100px;
+	vertical-align:top;
+	background-color:#C8E1EA;
+}
+table.calendar td.event_day {
+	background-color:#fff;
+}
+/******************************/
+/*	general classes	*/
+/******************************/
+.message {
+	background-color:#fff;
+	padding:.5em;
+	text-align:center;
+	margin-bottom:10px;
+}
+.errors {
+	color:#F00;
+}
+.shadow{
+	box-shadow: 2px 5px 5px #888;
+	-moz-box-shadow: 2px 5px 5px #888;
+	-webkit-box-shadow: 2px 5px 5px #888;	
+}
+.rounded{
+	background-clip: border-box;
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;	
+}
+.form_hint {
+	text-transform:lowercase;
+	font-size:.8em;
+	font-weight:normal;	
+}
+.required {
+	background-color:#BEDEC0;	
+}
+.small {
+	font-size:.8em;
+	font-style:italic;	
+}
+.clear {
+	clear:both;
+}

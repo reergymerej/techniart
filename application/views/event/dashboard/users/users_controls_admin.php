@@ -1,0 +1,1 @@
+<a href="<?php echo site_url( 'event_users/edit/' . $id ); ?>" class="buttonLink">edit users</a>

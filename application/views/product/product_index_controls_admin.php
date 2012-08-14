@@ -1,0 +1,1 @@
+<a href="<?php echo site_url('product/create'); ?>" class="buttonLink">new product</a>

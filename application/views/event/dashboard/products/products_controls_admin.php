@@ -1,0 +1,1 @@
+<a href="<?php echo site_url( "event_products/edit/$id" ); ?>" class="buttonLink">edit products</a>
